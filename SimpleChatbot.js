@@ -1,4 +1,8 @@
+  
+
   // Basic Chatbot using Conditionals and Objects
+
+
 
   const chatbot ={
 
@@ -33,7 +37,7 @@
   }
 }
 
-// alternatively 
+// alternatively by Switch
 
 
 switch (chatbot) {
