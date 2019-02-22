@@ -12,7 +12,7 @@ const getUserChoice = (userInput) => {
 };
 
 const getComputerChoice = () => {
-  const randomNumber =    Math.floor(Math.random() * 3);
+  const randomNumber =  Math.floor(Math.random() * 3);
   switch (randomNumber){
     case 0:
       return 'rock';
@@ -55,6 +55,8 @@ if (userChoice === 'scissors'){
      return 'User won!';
    }
  } 
+
+ //cheating ability !!!
   
  if (userChoice === 'bomb'){
   return 'You destroyed the computer, Congrats!';
