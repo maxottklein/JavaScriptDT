@@ -1,4 +1,4 @@
-//Rock,Paper,Scissor
+// Using Functions and Conditional Statements to creaate a Rock, Paper, Scissor game
 
 
 
