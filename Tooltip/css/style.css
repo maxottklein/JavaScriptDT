@@ -1,0 +1,38 @@
+body {
+	background-color: #E2F0FF;
+	color: #212b36;
+  	font-family: Futura;
+  	font-size: 40px;
+  	font-weight: 700;
+  	overflow-x: hidden;
+  	overflow-y: hidden;
+}
+
+
+img {
+
+	width: 50%;
+	margin-left: 25%;
+	margin-right:25%;
+	margin-top: 10%;
+	margin-bottom: 10%;
+
+}
+
+
+.div-tooltip{
+
+	opacity: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: white;
+	color: #212b36;
+	font-family: Futura;
+  	font-size: 30px;
+  	font-weight: 400;
+  	margin: 10px;
+  	padding: 10px;
+  	z-index: 100;
+
+}
