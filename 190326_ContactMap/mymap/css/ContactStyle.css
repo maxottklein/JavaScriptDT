@@ -1,0 +1,78 @@
+body {
+
+	overflow-x: hidden;
+}
+
+
+.ContentContainer {
+
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+
+}
+
+.Header {
+
+	width: 100%;
+	height: auto;
+	border: 1px solid #212b36;
+	margin-bottom: 100px;
+}
+
+
+.ContentBody {
+
+	width: 100%;
+	height: auto;
+	/*border: 1px solid #212b36;*/
+}
+
+	#Headline {
+
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+		border: 1px solid #212b36;
+		margin-bottom: 50px;
+
+
+	}
+
+
+	#map {
+
+      height:700px;
+      width:100%;
+      margin-bottom: 50px;
+
+    }
+
+
+
+h1 {
+
+	/*width: 400px;
+    height: 40px;*/
+    color: #212B36;
+    font-family: Futura;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    border: 1px solid #212b36;
+
+}
+
+
+h2 {
+
+	/*width: 400px;
+    height: 40px;*/
+    color: #9b9b9b;
+    font-family: Futura;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 40px;
+    border: 1px solid #212b36;
+
+}
