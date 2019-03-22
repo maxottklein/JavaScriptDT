@@ -1,0 +1,161 @@
+
+	margin:0;
+	padding:0;
+
+
+
+body {
+
+	overflow-x: hidden;
+}
+
+
+/*___________NAVIGATION________________*/
+
+
+
+.NavBar {
+
+	width: 100%;
+	height: auto;
+	margin-bottom: 100px;
+	/*border: 1px solid #212b36;*/
+	
+}
+
+nav{
+	width:80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	height:150px;
+	/*border: 1px solid #212b36;*/
+}
+
+nav img {
+
+	width: 50px;
+	height: 50px;
+	padding-top: 50px;
+}
+
+nav .selected {
+
+	color: #212B36;
+}
+
+ul {
+
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+
+
+ul li {
+
+	list-style: none;
+	display: inline-block;
+	line-height: 150px;
+}
+
+
+ul li a {
+
+	display: block; 
+	text-decoration: none;
+	color: #9b9b9b;
+    font-family: Futura;
+    font-size: 30px;
+    font-weight: 400;
+    padding-left:70px;
+
+}
+
+
+ul li a:hover {
+
+	color: #212B36;
+}
+
+
+
+/*___________________________*/
+
+
+
+.ContentContainer {
+
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+
+}
+
+
+.ContentBody {
+
+	width: 100%;
+	height: auto;
+	/*border: 1px solid #212b36;*/
+}
+
+#Headline {
+
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+		border: 1px solid #212b36;
+		margin-bottom: 50px;
+
+
+	}
+
+
+	#map {
+
+      height:800px;
+      width:100%;
+      margin-bottom: 50px;
+
+    }
+
+
+
+h1 {
+
+	/*width: 400px;
+    height: 40px;*/
+    color: #212B36;
+    font-family: Futura;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    border: 1px solid #212b36;
+
+}
+
+
+h2 {
+
+	/*width: 400px;
+    height: 40px;*/
+    color: #9b9b9b;
+    font-family: Futura;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 40px;
+    border: 1px solid #212b36;
+
+}
+
+
+
+
+.Footer {
+
+	width: 100%;
+	height: 200px;
+	background-color: #F5F5F5;
+	/*border: 1px solid #212b36;*/
+	
+}
