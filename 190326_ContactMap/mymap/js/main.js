@@ -1,8 +1,48 @@
+var a;
+var b;
+
+window.addEventListener('DOMContentLoaded', function(e) {
+      
+      let jsonArray;
+      e.preventDefault();
+      console.log('js is connected');
+
+      let xmlhttp = new XMLHttpRequest();
+      var jsonurl = 'http://localhost:3000/position';
+      xmlhttp.onreadystatechange = function() {
+  
+        if (this.readyState == 4 && this.status == 200) {jsonArray = JSON.parse(this.responseText);
+
+      
+
+      a = parseFloat(jsonArray[0].lat);
+      b = parseFloat(jsonArray[0].lng);
+
+
+      console.log(jsonArray[1].lat);
+      console.log(jsonArray[1].lng);
+
+      console.log(a);
+      console.log(b);
+
+          }
+      }
+
+    xmlhttp.open('GET',jsonurl, true);
+    xmlhttp.send();
+
+
+
+    });
+
+
+
+
 function initMap(){
 
       // Map position + options
 
-      const MyPosition = {lat:40.736679, lng:-73.993111};
+      let MyPosition = {lat: a, lng: b};
 
       const options = {
 
@@ -202,7 +242,7 @@ function initMap(){
 
       // Add Marker
 
-      const marker = new google.maps.Marker({
+      let marker = new google.maps.Marker({
         position: MyPosition, 
         map: map,
         icon: 'Images/Icon.png', //link of photo
@@ -212,5 +252,8 @@ function initMap(){
 
 
     }
+
+
+
 
 
