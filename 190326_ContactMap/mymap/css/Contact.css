@@ -184,6 +184,84 @@ h2 {
 }
 
 
+.ContactForm {
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 150px;
+}
+
+.ContactForm h5 {
+
+  color: #212b36;
+  font-family: Futura;
+  font-size: 20px;
+  line-height: 14px;
+  font-weight: 700;
+  margin-bottom: 20px;
+
+}
+
+.ContactForm input {
+
+  width: 100%;
+  height: 36px;
+  border-radius: 1px;
+  border: 1px solid #c4cdd5;
+  background-color: #ffffff;
+  margin-bottom: 10px;
+
+  color: #9b9b9b;
+  font-family: Futura;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  padding-left: 10px;
+}
+
+.ContactForm #inputMessage {
+
+  width: 100%;
+  height: 180px;
+  border-radius: 1px;
+  border: 1px solid #c4cdd5;
+  background-color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 50px;
+
+  color: #9b9b9b;
+  font-family: Futura;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  padding-left: 10px;
+}
+
+.ContactForm text {
+
+  color: #c4cdd5;
+  font-family: Futura;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px
+}
+
+.ContactForm button {
+
+  width: 25%;
+  height: 36px;
+  border-radius: 16px;
+  color: #000000;
+  font-family: Futura;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: none;
+}
+
+
+
+
 
 
 .Footer {

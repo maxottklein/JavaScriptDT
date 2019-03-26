@@ -15,9 +15,12 @@ window.addEventListener('DOMContentLoaded', function(e) {
 
       
 
-      a = parseFloat(jsonArray[0].lat);
-      b = parseFloat(jsonArray[0].lng);
+      a = parseFloat(jsonArray[jsonArray.length-1].locations[0].geometry.coordinates[0]);
+      b = parseFloat(jsonArray[jsonArray.length-1].locations[0].geometry.coordinates[1]);
 
+
+      // a = parseFloat(jsonArray[0].lat);
+      // b = parseFloat(jsonArray[0].lng);
 
       console.log(jsonArray[1].lat);
       console.log(jsonArray[1].lng);
