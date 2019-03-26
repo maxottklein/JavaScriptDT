@@ -1,5 +1,5 @@
-var a;
-var b;
+let a;
+let b;
 
 window.addEventListener('DOMContentLoaded', function(e) {
       
@@ -8,7 +8,7 @@ window.addEventListener('DOMContentLoaded', function(e) {
       console.log('js is connected');
 
       let xmlhttp = new XMLHttpRequest();
-      var jsonurl = 'http://localhost:3000/position';
+      let jsonurl = 'http://localhost:3000/position';
       xmlhttp.onreadystatechange = function() {
   
         if (this.readyState == 4 && this.status == 200) {jsonArray = JSON.parse(this.responseText);
