@@ -1,0 +1,24 @@
+[
+  {
+    "title": "Swapp",
+    "url": "Images/Swapp.png",
+    "desc": "Digital Product Design"
+  },
+    {
+    "title": "Flexperience",
+    "url": "Images/Flexperience.png",
+    "desc": "Service Design"
+  }, {
+    "title": "ADVANTAGES",
+    "url": "Images/VORTEILE.png",
+    "desc": "Responsive Web Design"
+  }, {
+    "title": "ModuPipe",
+    "url": "Images/ModuPipe.png",
+    "desc": "Product Design"
+  }, {
+    "title": "+board",
+    "url": "Images/+board.png",
+    "desc": "Product Design"
+  }
+]
